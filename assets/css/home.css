@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#contact-heading {
+    text-align: center;
+    color: grey;
+}
+
+#list-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#list{
+    list-style: none;
+    width: 350px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item{
+    border: 1px solid white;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+}
+.list-item:hover{
+    background-color: grey;
+}
+
+#contact-form{
+    margin: 15px;
+}
